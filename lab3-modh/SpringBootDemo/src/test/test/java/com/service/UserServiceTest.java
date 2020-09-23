@@ -31,11 +31,11 @@ public class UserServiceTest extends AbstractTest {
     @Test
     public void testAddUser() {
         User user = new User();
-        user.setFirstname("Setu");
-        user.setLastname("Pankhaniya");
-        user.setEmail("setu.pankhaniya@sjsu.edu");
-        user.setPassword("setua");
-        user.setContact("6692437348");
+        user.setFirstname("Rohan");
+        user.setLastname("Athavale");
+        user.setEmail("rohan.athavale@sjsu.edu");
+        user.setPassword("roha");
+        user.setContact("123456789");
         user.setEducation("MS");
         user.setMusic("Ed Sheeran");
         user.setShows("F1");
@@ -62,7 +62,7 @@ public class UserServiceTest extends AbstractTest {
         userBeingEdited.put("lastname", "Modh");
         userBeingEdited.put("email", "rajvi.modh@sjsu.edu");
         userBeingEdited.put("password", "raaz");
-        userBeingEdited.put("contact", "6692437364");
+        userBeingEdited.put("contact", "123456789");
         userBeingEdited.put("education", "MS");
         userBeingEdited.put("shows", "GoT");
         userBeingEdited.put("sports", "IceSkating");
